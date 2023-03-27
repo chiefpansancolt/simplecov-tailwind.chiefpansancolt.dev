@@ -24,11 +24,15 @@ export function Hero() {
                 Simplecov Tailwindcss
               </p>
               <p className="mt-3 text-2xl tracking-tight text-slate-400">
-                Generates a HTML Tailwind Design report generated from Simplecov using ruby 2.5 or greater.
+                Generates a HTML Tailwind Design report generated from Simplecov using ruby 2.5 or
+                greater.
               </p>
               <div className="mt-8 flex gap-4 md:justify-center lg:justify-start">
                 <Button href="/">Get started</Button>
-                <Button href="https://github.com/chiefpansancolt/simplecov-tailwindcss" variant="secondary">
+                <Button
+                  href="https://github.com/chiefpansancolt/simplecov-tailwindcss"
+                  variant="secondary"
+                >
                   View on GitHub
                 </Button>
               </div>

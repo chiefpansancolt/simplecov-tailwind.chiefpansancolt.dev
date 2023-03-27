@@ -17,9 +17,12 @@ const navigation = [
     title: "Resources",
     links: [
       { title: "Simplecov", href: "https://github.com/simplecov-ruby/simplecov" },
-      { title: "License", href: "https://github.com/chiefpansancolt/simplecov-tailwindcss/blob/main/LICENSE" },
+      {
+        title: "License",
+        href: "https://github.com/chiefpansancolt/simplecov-tailwindcss/blob/main/LICENSE",
+      },
     ],
   },
 ]
 
-export default navigation;
+export default navigation
