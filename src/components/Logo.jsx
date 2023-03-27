@@ -32,7 +32,7 @@ export function Logomark(props) {
           />
         </clipPath>
       </defs>
-      <g clip-path="url(#9345b75d46)">
+      <g clipPath="url(#9345b75d46)">
         <path
           fill="#ffffff"
           d="M 0.492188 0 L 53.507812 0 L 53.507812 60.382812 L 0.492188 60.382812 Z M 0.492188 0 "
@@ -52,7 +52,7 @@ export function Logomark(props) {
           fillRule="nonzero"
         />
       </g>
-      <g clip-path="url(#b0152ebca6)">
+      <g clipPath="url(#b0152ebca6)">
         <path
           fill="#020202"
           d="M 40.777344 15.621094 L 36.902344 19.496094 L 43.988281 26.585938 L 36.898438 33.671875 L 40.773438 37.546875 L 51.742188 26.585938 Z M 40.777344 15.621094 "
@@ -60,7 +60,7 @@ export function Logomark(props) {
           fillRule="nonzero"
         />
       </g>
-      <g clip-path="url(#b9efb43249)">
+      <g clipPath="url(#b9efb43249)">
         <path
           fill="#020202"
           d="M 13.367188 37.546875 L 17.246094 33.671875 L 10.15625 26.585938 L 17.246094 19.496094 L 13.371094 15.621094 L 2.40625 26.585938 Z M 13.367188 37.546875 "
@@ -68,7 +68,7 @@ export function Logomark(props) {
           fillRule="nonzero"
         />
       </g>
-      <g clip-path="url(#2b4806863c)">
+      <g clipPath="url(#2b4806863c)">
         <path
           fill="#56437c"
           d="M 18.007812 49.835938 L 30.84375 1.917969 L 36.140625 3.335938 L 23.300781 51.253906 Z M 18.007812 49.835938 "
@@ -112,7 +112,7 @@ export function Logo(props) {
           />
         </clipPath>
       </defs>
-      <g clip-path="url(#5c28782a7f)">
+      <g clipPath="url(#5c28782a7f)">
         <path
           fill="#020202"
           d="M 47.164062 22.019531 L 44.394531 24.789062 L 49.457031 29.851562 L 44.390625 34.914062 L 47.160156 37.683594 L 54.996094 29.851562 Z M 47.164062 22.019531 "
@@ -120,7 +120,7 @@ export function Logo(props) {
           fillRule="nonzero"
         />
       </g>
-      <g clip-path="url(#aff852137b)">
+      <g clipPath="url(#aff852137b)">
         <path
           fill="#020202"
           d="M 27.578125 37.683594 L 30.347656 34.914062 L 25.285156 29.851562 L 30.351562 24.789062 L 27.582031 22.019531 L 19.746094 29.851562 Z M 27.578125 37.683594 "
@@ -128,7 +128,7 @@ export function Logo(props) {
           fillRule="nonzero"
         />
       </g>
-      <g clip-path="url(#f1846c5df7)">
+      <g clipPath="url(#f1846c5df7)">
         <path
           fill="#56437c"
           d="M 30.894531 46.460938 L 40.066406 12.226562 L 43.851562 13.242188 L 34.675781 47.476562 Z M 30.894531 46.460938 "
