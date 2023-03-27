@@ -42,7 +42,7 @@ export default function Document() {
   return (
     <Html className="antialiased [font-feature-settings:'ss01']" lang="en">
       <Head>
-        <script dangerouslySetInnerHTML={{ __html: themeScript }} />
+        {/* <script dangerouslySetInnerHTML={{ __html: themeScript }} /> */}
         <script
             async
             src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}
