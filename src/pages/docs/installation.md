@@ -62,7 +62,7 @@ SimpleCov.formatters =
   )
 ```
 
-### Sample 
+### Sample
 
 Here is an example usage in a test_helper.rb file for a minitest usage.
 

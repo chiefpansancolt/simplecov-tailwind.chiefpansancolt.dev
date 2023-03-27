@@ -4,11 +4,11 @@ import { MobileNavigation } from "@/components/MobileNavigation"
 import { Navigation } from "@/components/Navigation"
 import { Prose } from "@/components/Prose"
 import { Search } from "@/components/Search"
+import navigation from "@/data/navigation"
 import clsx from "clsx"
 import Link from "next/link"
 import { useRouter } from "next/router"
 import { useCallback, useEffect, useState } from "react"
-import navigation from "@/data/navigation"
 
 function GitHubIcon(props) {
   return (
@@ -54,7 +54,11 @@ function Header({ navigation }) {
         <Search />
       </div>
       <div className="relative flex basis-0 justify-end gap-6 sm:gap-8 md:flex-grow">
-        <Link href="https://github.com/chiefpansancolt/simplecov-tailwindcss" className="group" aria-label="GitHub">
+        <Link
+          href="https://github.com/chiefpansancolt/simplecov-tailwindcss"
+          className="group"
+          aria-label="GitHub"
+        >
           <GitHubIcon className="h-6 w-6 fill-slate-400 group-hover:fill-slate-500 dark:group-hover:fill-slate-300" />
         </Link>
       </div>
