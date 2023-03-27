@@ -17,6 +17,7 @@ const navigation = [
     title: "Resources",
     links: [
       { title: "Simplecov", href: "https://github.com/simplecov-ruby/simplecov" },
+      { title: "Roadmap", href: "https://github.com/users/chiefpansancolt/projects/9" },
       {
         title: "License",
         href: "https://github.com/chiefpansancolt/simplecov-tailwindcss/blob/main/LICENSE",
