@@ -5,6 +5,7 @@
 [![GitHub Workflow Deploy Status](https://img.shields.io/github/actions/workflow/status/chiefpansancolt/simplecov-tailwind.chiefpansancolt.dev/deploy.yml?label=Deploy&logo=github&style=flat-square)](https://github.com/chiefpansancolt/simplecov-tailwind.chiefpansancolt.dev/actions/workflows/deploy.yml)
 [![GitHub Workflow Build Status](https://img.shields.io/github/actions/workflow/status/chiefpansancolt/simplecov-tailwind.chiefpansancolt.dev/build.yml?label=Build&logo=github&style=flat-square)](https://github.com/chiefpansancolt/simplecov-tailwind.chiefpansancolt.dev/actions/workflows/build.yml)
 [![GitHub Workflow Lint Status](https://img.shields.io/github/actions/workflow/status/chiefpansancolt/simplecov-tailwind.chiefpansancolt.dev/lints.yml?label=Lints&logo=github&style=flat-square)](https://github.com/chiefpansancolt/simplecov-tailwind.chiefpansancolt.dev/actions/workflows/lints.yml)
+[![CodeQL](https://github.com/chiefpansancolt/simplecov-tailwind.chiefpansancolt.dev/actions/workflows/github-code-scanning/codeql/badge.svg)](https://github.com/chiefpansancolt/simplecov-tailwind.chiefpansancolt.dev/actions/workflows/github-code-scanning/codeql)
 
 > My website, created with Next.js, TailwindCSS, and TailwindUI using Syntax Template
 
