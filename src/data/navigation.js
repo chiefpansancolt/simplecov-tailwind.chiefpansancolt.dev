@@ -10,6 +10,7 @@ const navigation = [
     title: "Contributing",
     links: [
       { title: "How to contribute", href: "/docs/how-to-contribute" },
+      { title: "Sponsor", href: "/docs/sponsor" },
       { title: "Change log", href: "/docs/change-log" },
     ],
   },
