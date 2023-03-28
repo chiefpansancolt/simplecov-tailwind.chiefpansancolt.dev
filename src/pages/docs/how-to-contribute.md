@@ -14,7 +14,7 @@ and stronger!
 This project and everyone participating in it is governed by the [Simplecov
 Material Code of Conduct](https://github.com/chiefpansancolt/simplecov-tailwindcss/blob/main/.github/CODE_OF_CONDUCT.md).
 By participating, you are expected to uphold this code. Please report
-unacceptable behavior to github@chiefpansancolt.live.
+unacceptable behavior to github@chiefpansancolt.dev.
 
 ## How can I Contribute
 
@@ -66,6 +66,9 @@ The process described here has several goals:
 Please follow these steps to have your contribution considered by the maintainers:
 
 - Follow all instructions in [the template](https://github.com/chiefpansancolt/simplecov-tailwindcss/blob/main/.github/PULL_REQUEST_TEMPLATE.md)
-- After you submit your pull request, verify that all status checks are passing{% detail %} {% summary %}What if the status checks are failing?{%/ summary %}If a status check is failing, and you believe that the failure is unrelated to your change, please leave a comment on the pull request explaining why you believe the failure is unrelated. A maintainer will re-run the status check for you. If we conclude that the failure was a false positive, then we will open an issue to track that problem with our status check suite.{%/ details %}
+- After you submit your pull request, verify that all status checks are passing
+
+- What if the status checks are failing?
+  - If a status check is failing, and you believe that the failure is unrelated to your change, please leave a comment on the pull request explaining why you believe the failure is unrelated. A maintainer will re-run the status check for you. If we conclude that the failure was a false positive, then we will open an issue to track that problem with our status check suite.
 
 While the prerequisites above must be satisfied prior to having your pull request reviewed, the reviewer(s) may ask you to complete additional design work, tests, or other changes before your pull request can be ultimately accepted.
