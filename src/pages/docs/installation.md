@@ -1,9 +1,9 @@
 ---
 title: Installation
-description: installation steps to add Simplecov Tailwindcss.
+description: Installation steps to add Simplecov Tailwindcss.
 ---
 
-Quasi sapiente voluptates aut minima non doloribus similique quisquam. In quo expedita ipsum nostrum corrupti incidunt. Et aut eligendi ea perferendis.
+Find out how to install Simplecov Tailwind to your project and use the most out of it!
 
 ---
 
