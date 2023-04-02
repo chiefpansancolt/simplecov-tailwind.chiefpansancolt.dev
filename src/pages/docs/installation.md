@@ -9,7 +9,7 @@ Find out how to install Simplecov Tailwind to your project and use the most out 
 
 ## Setup
 
-Add the below to your Gemfile to make Simplecov Material available as a formatter for your application.
+Add the below to your Gemfile to make Simplecov Tailwind available as a formatter for your application.
 
 ### Ruby Gems Host
 
