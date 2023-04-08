@@ -69,32 +69,31 @@ Here is an example usage in a test_helper.rb file for a minitest usage.
 ```ruby
 # test/test_helper.rb
 
-require "simplecov"
+require 'simplecov'
 
-SimpleCov.profiles.define "migrator_profile" do
-  load_profile "test_frameworks"
+SimpleCov.profiles.define 'migrator_profile' do
+  load_profile 'test_frameworks'
 
   add_filter %r{^/config/}
   add_filter %r{^/db/}
   add_filter %r{^/vendor/}
 
-  add_group "Controllers", "app/controllers"
-  add_group "Helpers", "app/helpers"
-  add_group "Channels", "app/channels"
-  add_group "Models" do |src|
-    src.filename.include?("app/models") &&
-    !src.filename.include?("app/models/factories") &&
-    !src.filename.include?("app/models/salesforce_objects")
+  add_group 'Controllers', 'app/controllers'
+  add_group 'Helpers', 'app/helpers'
+  add_group 'Channels', 'app/channels'
+  add_group 'Models' do |src|
+    src.filename.include?('app/models') && !src.filename.include?('app/models/factories') &&
+      !src.filename.include?('app/models/salesforce_objects')
   end
-  add_group "Factories", "app/models/factories"
-  add_group "Salesforce Objects", "app/models/salesforce_objects"
-  add_group "Jobs", "app/jobs"
-  add_group "Generators", "lib/generators"
+  add_group 'Factories', 'app/models/factories'
+  add_group 'Salesforce Objects', 'app/models/salesforce_objects'
+  add_group 'Jobs', 'app/jobs'
+  add_group 'Generators', 'lib/generators'
 
-  track_files "{app,lib}/**/*.rb"
+  track_files '{app,lib}/**/*.rb'
 end
 
-SimpleCov.start "migrator_profile"
+SimpleCov.start 'migrator_profile'
 
 SimpleCov.minimum_coverage 90
 SimpleCov.formatter = SimpleCov::Formatter::SimplecovFormatter
