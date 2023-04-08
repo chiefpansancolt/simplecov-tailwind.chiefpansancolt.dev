@@ -1,0 +1,1 @@
+sitemap: simplecov-tailwind.chiefpansancolt.dev/sitemap.xml
