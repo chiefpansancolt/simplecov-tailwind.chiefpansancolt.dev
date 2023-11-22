@@ -1,10 +1,10 @@
 import Markdoc from '@markdoc/markdoc'
 import { slugifyWithCounter } from '@sindresorhus/slugify'
 import glob from 'fast-glob'
-import fs from 'fs'
-import path from 'path'
+import * as fs from 'node:fs';
+import * as path from 'node:path'
 import { createLoader } from 'simple-functional-loader'
-import url from 'url'
+import * as url from 'node:url'
 
 const __filename = url.fileURLToPath(import.meta.url)
 const slugify = slugifyWithCounter()
