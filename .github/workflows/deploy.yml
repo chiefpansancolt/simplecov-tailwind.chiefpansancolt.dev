@@ -22,7 +22,7 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      
+
       - name: Detect package manager
         id: detect-package-manager
         run: |
@@ -46,7 +46,7 @@ jobs:
         with:
           node-version: 18
           cache: ${{ steps.detect-package-manager.outputs.manager }}
-      
+
       - uses: pnpm/action-setup@v2
         name: Install pnpm
         with:
