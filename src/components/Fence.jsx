@@ -1,3 +1,5 @@
+'use client'
+
 import { Fragment } from 'react'
 import { Highlight, Prism } from 'prism-react-renderer'
 ;(typeof global !== 'undefined' ? global : window).Prism = Prism
