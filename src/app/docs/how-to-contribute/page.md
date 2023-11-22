@@ -1,6 +1,9 @@
 ---
 title: How to contribute
-description: See whats ways you can contribute to the project.
+nextjs:
+  metadata:
+    title: How to contribute
+    description: See whats ways you can contribute to the project.
 ---
 
 First and for most thank you for taking the time to look to contribute to

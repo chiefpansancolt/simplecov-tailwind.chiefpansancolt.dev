@@ -1,6 +1,9 @@
 ---
 title: Sponsor
-description: Another way to contribute is by sponsoring this project.
+nextjs:
+  metadata:
+    title: Sponsor
+    description: Another way to contribute is by sponsoring this project.
 ---
 
 Looking for ways to contribute to the project you can sponosor it in one of many ways.

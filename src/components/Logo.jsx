@@ -20,10 +20,16 @@ export function Logomark(props) {
           />
         </clipPath>
         <clipPath id="b0152ebca6">
-          <path d="M 36 15 L 51.742188 15 L 51.742188 38 L 36 38 Z M 36 15 " clipRule="nonzero" />
+          <path
+            d="M 36 15 L 51.742188 15 L 51.742188 38 L 36 38 Z M 36 15 "
+            clipRule="nonzero"
+          />
         </clipPath>
         <clipPath id="b9efb43249">
-          <path d="M 2.40625 15 L 18 15 L 18 38 L 2.40625 38 Z M 2.40625 15 " clipRule="nonzero" />
+          <path
+            d="M 2.40625 15 L 18 15 L 18 38 L 2.40625 38 Z M 2.40625 15 "
+            clipRule="nonzero"
+          />
         </clipPath>
         <clipPath id="2b4806863c">
           <path
@@ -97,7 +103,10 @@ export function Logo(props) {
       <defs>
         <g />
         <clipPath id="5c28782a7f">
-          <path d="M 44 22 L 54.996094 22 L 54.996094 38 L 44 38 Z M 44 22 " clipRule="nonzero" />
+          <path
+            d="M 44 22 L 54.996094 22 L 54.996094 38 L 44 38 Z M 44 22 "
+            clipRule="nonzero"
+          />
         </clipPath>
         <clipPath id="aff852137b">
           <path

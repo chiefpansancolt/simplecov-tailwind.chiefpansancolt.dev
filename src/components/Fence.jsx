@@ -1,9 +1,17 @@
-import Highlight, { defaultProps } from "prism-react-renderer"
-import { Fragment } from "react"
+'use client'
+
+import { Fragment } from 'react'
+import { Highlight, Prism } from 'prism-react-renderer'
+;(typeof global !== 'undefined' ? global : window).Prism = Prism
+import('prismjs/components/prism-ruby')
 
 export function Fence({ children, language }) {
   return (
-    <Highlight {...defaultProps} code={children.trimEnd()} language={language} theme={undefined}>
+    <Highlight
+      code={children.trimEnd()}
+      language={language}
+      theme={{ plain: {}, styles: [] }}
+    >
       {({ className, style, tokens, getTokenProps }) => (
         <pre className={className} style={style}>
           <code>
@@ -14,7 +22,7 @@ export function Fence({ children, language }) {
                   .map((token, tokenIndex) => (
                     <span key={tokenIndex} {...getTokenProps({ token })} />
                   ))}
-                {"\n"}
+                {'\n'}
               </Fragment>
             ))}
           </code>

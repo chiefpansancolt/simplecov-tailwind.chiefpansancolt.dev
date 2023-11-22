@@ -1,7 +1,9 @@
 ---
-title: Getting started
-pageTitle: Simplecov Tailwindcss - Getting Started.
-description: Getting started with using Simplecov Tailwindcss in a Ruby project.
+title: Getting Started
+nextjs:
+  metadata:
+    title: Simplecov Tailwindcss - Getting Started
+    description: Getting started with using Simplecov Tailwindcss in a Ruby project.
 ---
 
 Learn how to get Simplecov Tailwindcss set up in your project.
