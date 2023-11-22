@@ -6,7 +6,6 @@ nextjs:
     description: See what has changed from release to release.
 ---
 
-
 ## Version [2.1.2](https://github.com/chiefpansancolt/simplecov-tailwindcss/releases/tag/2.1.2)
 
 ### Updates

@@ -15,7 +15,7 @@
 
 <p>
   <img src="https://img.shields.io/badge/node-18.x.x-blue.svg" />
-  <img src="https://img.shields.io/badge/yarn-1.22.x-blue.svg" />
+  <img src="https://img.shields.io/badge/pnpm-8.10.x-blue.svg" />
 </p>
 
 ## Author

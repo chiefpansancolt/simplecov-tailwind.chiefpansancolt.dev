@@ -1,8 +1,8 @@
-import { Button } from "@/components/Button"
-import { HeroBackground } from "@/components/HeroBackground"
-import blurCyanImage from "@/images/blur-cyan.png"
-import simplecovTailwindImage from "@/images/simplecov-tailwindcss.png"
-import Image from "next/image"
+import { Button } from '@/components/Button'
+import { HeroBackground } from '@/components/HeroBackground'
+import blurCyanImage from '@/images/blur-cyan.png'
+import simplecovTailwindImage from '@/images/simplecov-tailwindcss.png'
+import Image from 'next/image'
 
 export function Hero() {
   return (
@@ -24,8 +24,8 @@ export function Hero() {
                 Simplecov Tailwindcss
               </p>
               <p className="mt-3 text-2xl tracking-tight text-slate-400">
-                Generates a HTML Tailwind Design report generated from Simplecov using ruby 2.5 or
-                greater.
+                Generates a HTML Tailwind Design report generated from Simplecov
+                using ruby 2.5 or greater.
               </p>
               <div className="mt-8 flex gap-4 md:justify-center lg:justify-start">
                 <Button href="/">Get started</Button>
