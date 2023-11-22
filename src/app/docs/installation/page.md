@@ -1,6 +1,9 @@
 ---
 title: Installation
-description: Installation steps to add Simplecov Tailwindcss.
+nextjs:
+  metadata:
+    title: Installation
+    description: Installation steps to add Simplecov Tailwindcss.
 ---
 
 Find out how to install Simplecov Tailwind to your project and use the most out of it!

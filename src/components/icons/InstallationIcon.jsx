@@ -1,10 +1,14 @@
-import { DarkMode, Gradient, LightMode } from "@/components/Icon"
+import { DarkMode, Gradient, LightMode } from '@/components/Icon'
 
 export function InstallationIcon({ id, color }) {
   return (
     <>
       <defs>
-        <Gradient id={`${id}-gradient`} color={color} gradientTransform="matrix(0 21 -21 0 12 3)" />
+        <Gradient
+          id={`${id}-gradient`}
+          color={color}
+          gradientTransform="matrix(0 21 -21 0 12 3)"
+        />
         <Gradient
           id={`${id}-gradient-dark`}
           color={color}

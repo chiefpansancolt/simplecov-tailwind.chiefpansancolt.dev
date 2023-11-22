@@ -1,6 +1,9 @@
 ---
 title: How to contribute
-description: See whats ways you can contribute to the project.
+nextjs:
+  metadata:
+    title: How to contribute
+    description: See whats ways you can contribute to the project.
 ---
 
 First and for most thank you for taking the time to look to contribute to
@@ -69,6 +72,6 @@ Please follow these steps to have your contribution considered by the maintainer
 - After you submit your pull request, verify that all status checks are passing
 
 - What if the status checks are failing?
-  - If a status check is failing, and you believe that the failure is unrelated to your change, please leave a comment on the pull request explaining why you believe the failure is unrelated. A maintainer will re-run the status check for you. If we conclude that the failure was a false positive, then we will open an issue to track that problem with our status check suite.
+    - If a status check is failing, and you believe that the failure is unrelated to your change, please leave a comment on the pull request explaining why you believe the failure is unrelated. A maintainer will re-run the status check for you. If we conclude that the failure was a false positive, then we will open an issue to track that problem with our status check suite.
 
 While the prerequisites above must be satisfied prior to having your pull request reviewed, the reviewer(s) may ask you to complete additional design work, tests, or other changes before your pull request can be ultimately accepted.
