@@ -1,3 +1,4 @@
+import { Analytics } from '@vercel/analytics/react'
 import { Inter } from 'next/font/google'
 import localFont from 'next/font/local'
 import clsx from 'clsx'
@@ -23,10 +24,12 @@ const lexend = localFont({
 export const metadata = {
   title: {
     template: '%s - Docs',
-    default: 'CacheAdvance - Never miss the cache again.',
+    default: 'Simplecov Tailwindcss',
   },
   description:
-    'Cache every single thing your app could ever do ahead of time, so your code never even has to run at all.',
+    'Getting started with using Simplecov Tailwindcss in a Ruby project.',
+  keywords:
+    'Simplecov, Ruby, Ruby on Rails, Tailwindcss, Simplecov Tailwindcss',
 }
 
 export default function RootLayout({ children }) {
@@ -74,7 +77,10 @@ export default function RootLayout({ children }) {
       </head>
       <body className="flex min-h-full bg-white dark:bg-slate-900">
         <Providers>
-          <Layout>{children}</Layout>
+          <Layout>
+            {children}
+            <Analytics />
+          </Layout>
         </Providers>
       </body>
     </html>
