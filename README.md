@@ -2,6 +2,9 @@
   <a href="https://simplecov-tailwind.chiefpansancolt.dev" target="_blank">simplecov-tailwind.chiefpansancolt.dev</a>
 </h1>
 
+[![GitHub tag (latest by date)](https://img.shields.io/github/v/tag/chiefpansancolt/simplecov-tailwindcss?label=Release&logo=github&style=flat-square)](https://github.com/chiefpansancolt/simplecov-tailwindcss/releases)
+[![Gem](https://img.shields.io/gem/v/simplecov-tailwindcss?color=orange&label=Gem%20Version&logo=rubygems&style=flat-square)](https://rubygems.org/gems/simplecov-tailwindcss)
+
 [![GitHub Workflow Deploy Status](https://img.shields.io/github/actions/workflow/status/chiefpansancolt/simplecov-tailwind.chiefpansancolt.dev/deploy.yml?label=Deploy&logo=github&style=flat-square)](https://github.com/chiefpansancolt/simplecov-tailwind.chiefpansancolt.dev/actions/workflows/deploy.yml)
 [![GitHub Workflow Build Status](https://img.shields.io/github/actions/workflow/status/chiefpansancolt/simplecov-tailwind.chiefpansancolt.dev/build.yml?label=Build&logo=github&style=flat-square)](https://github.com/chiefpansancolt/simplecov-tailwind.chiefpansancolt.dev/actions/workflows/build.yml)
 [![GitHub Workflow Lint Status](https://img.shields.io/github/actions/workflow/status/chiefpansancolt/simplecov-tailwind.chiefpansancolt.dev/lints.yml?label=Lints&logo=github&style=flat-square)](https://github.com/chiefpansancolt/simplecov-tailwind.chiefpansancolt.dev/actions/workflows/lints.yml)
