@@ -16,7 +16,7 @@
   "dependencies": {
     "@algolia/autocomplete-core": "^1.12.1",
     "@headlessui/react": "^1.7.17",
-    "@markdoc/markdoc": "^0.3.5",
+    "@markdoc/markdoc": "^0.4.0",
     "@markdoc/next.js": "^0.3.6",
     "@sindresorhus/slugify": "^2.2.1",
     "@tailwindcss/typography": "^0.5.10",
