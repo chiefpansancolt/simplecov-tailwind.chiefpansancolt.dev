@@ -39,8 +39,8 @@ importers:
         specifier: ^3.3.3
         version: 3.3.3
       flexsearch:
-        specifier: ^0.8.204
-        version: 0.8.204
+        specifier: ^0.8.212
+        version: 0.8.212
       js-yaml:
         specifier: ^4.1.0
         version: 4.1.0
@@ -1175,8 +1175,8 @@ packages:
   flatted@3.3.3:
     resolution: {integrity: sha512-GX+ysw4PBCz0PzosHDepZGANEuFCMLrnRTiEy9McGjmkCQYwRq4A/X786G/fjM/+OjsWSU1ZrY5qyARZmO/uwg==}
 
-  flexsearch@0.8.204:
-    resolution: {integrity: sha512-Vh+WUZfUHsVP6w4o5uAkYle8Gz/oEuztSWvpSY3h71AE8ox+goTQ2X5YG4x6VlKKfubkMwhewk8kBTOVKMObHA==}
+  flexsearch@0.8.212:
+    resolution: {integrity: sha512-wSyJr1GUWoOOIISRu+X2IXiOcVfg9qqBRyCPRUdLMIGJqPzMo+jMRlvE83t14v1j0dRMEaBbER/adQjp6Du2pw==}
 
   for-each@0.3.5:
     resolution: {integrity: sha512-dKx12eRCVIzqCxFGplyFKJMPvLEWgmNtUrpTiJIR5u97zEhRG8ySrtboPHZXx7daLxQVrl643cTzbab2tkQjxg==}
@@ -3366,7 +3366,7 @@ snapshots:
 
   flatted@3.3.3: {}
 
-  flexsearch@0.8.204: {}
+  flexsearch@0.8.212: {}
 
   for-each@0.3.5:
     dependencies:
