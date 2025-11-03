@@ -18,8 +18,8 @@ importers:
         specifier: ^0.5.2
         version: 0.5.2(react@18.3.1)
       '@markdoc/next.js':
-        specifier: ^0.4.0
-        version: 0.4.0(@markdoc/markdoc@0.5.2(react@18.3.1))(next@14.2.29(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1)
+        specifier: ^0.5.0
+        version: 0.5.0(@markdoc/markdoc@0.5.2(react@18.3.1))(next@14.2.29(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1)
       '@sindresorhus/slugify':
         specifier: ^2.2.1
         version: 2.2.1
@@ -384,8 +384,8 @@ packages:
       react:
         optional: true
 
-  '@markdoc/next.js@0.4.0':
-    resolution: {integrity: sha512-/tWBjixB4NWo5XUla70keO57xZP5OEP4ms358zXmbNoKtZHR4LjnBtulqLLZaJXOF7/M2BbblrjTYfSRWwE7Pg==}
+  '@markdoc/next.js@0.5.0':
+    resolution: {integrity: sha512-gzWvRc2dlxArQn1mDS4SHed46vkAoKBbXkELihQRYv1eVSA0u9eoNEdJXNuBL4Ajn9j2dPpwZp6nAVjN4nzZlA==}
     peerDependencies:
       '@markdoc/markdoc': '*'
       next: '*'
@@ -2454,7 +2454,7 @@ snapshots:
       '@types/markdown-it': 12.2.3
       react: 18.3.1
 
-  '@markdoc/next.js@0.4.0(@markdoc/markdoc@0.5.2(react@18.3.1))(next@14.2.29(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1)':
+  '@markdoc/next.js@0.5.0(@markdoc/markdoc@0.5.2(react@18.3.1))(next@14.2.29(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1)':
     dependencies:
       '@markdoc/markdoc': 0.5.2(react@18.3.1)
       js-yaml: 4.1.0
