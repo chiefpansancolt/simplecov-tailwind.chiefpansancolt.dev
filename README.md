@@ -1,35 +1,31 @@
-<h1 align="center">
-  <a href="https://simplecov-tailwind.chiefpansancolt.dev" target="_blank">simplecov-tailwind.chiefpansancolt.dev</a>
-</h1>
+# SimpleCov Tailwind - Documentation Site
 
-[![GitHub tag (latest by date)](https://img.shields.io/github/v/tag/chiefpansancolt/simplecov-tailwindcss?label=Release&logo=github&style=flat-square)](https://github.com/chiefpansancolt/simplecov-tailwindcss/releases)
-[![Gem](https://img.shields.io/gem/v/simplecov-tailwindcss?color=orange&label=Gem%20Version&logo=rubygems&style=flat-square)](https://rubygems.org/gems/simplecov-tailwindcss)
+Documentation site for the [simplecov-tailwindcss](https://github.com/chiefpansancolt/simplecov-tailwindcss) Ruby gem.
 
-[![GitHub Workflow Deploy Status](https://img.shields.io/github/actions/workflow/status/chiefpansancolt/simplecov-tailwind.chiefpansancolt.dev/deploy.yml?label=Deploy&logo=github&style=flat-square)](https://github.com/chiefpansancolt/simplecov-tailwind.chiefpansancolt.dev/actions/workflows/deploy.yml)
-[![GitHub Workflow Build Status](https://img.shields.io/github/actions/workflow/status/chiefpansancolt/simplecov-tailwind.chiefpansancolt.dev/build.yml?label=Build&logo=github&style=flat-square)](https://github.com/chiefpansancolt/simplecov-tailwind.chiefpansancolt.dev/actions/workflows/build.yml)
-[![GitHub Workflow Lint Status](https://img.shields.io/github/actions/workflow/status/chiefpansancolt/simplecov-tailwind.chiefpansancolt.dev/lints.yml?label=Lints&logo=github&style=flat-square)](https://github.com/chiefpansancolt/simplecov-tailwind.chiefpansancolt.dev/actions/workflows/lints.yml)
-[![CodeQL](https://github.com/chiefpansancolt/simplecov-tailwind.chiefpansancolt.dev/actions/workflows/github-code-scanning/codeql/badge.svg)](https://github.com/chiefpansancolt/simplecov-tailwind.chiefpansancolt.dev/actions/workflows/github-code-scanning/codeql)
+Built with [Next.js](https://nextjs.org), [Tailwind CSS](https://tailwindcss.com), and [Markdoc](https://markdoc.io).
 
-> My website, created with Next.js, TailwindCSS, and TailwindUI using Syntax Template
+## Development
 
-## Prerequisites
+Install dependencies:
 
-### JavaScript
+```bash
+npm install
+```
 
-<p>
-  <img src="https://img.shields.io/badge/node-21.x.x-blue.svg" />
-  <img src="https://img.shields.io/badge/pnpm-8.x.x-blue.svg" />
-</p>
+Run the development server:
 
-## Author
+```bash
+npm run dev
+```
 
-👤 **Christopher Pezza**
+Open [http://localhost:3000](http://localhost:3000) to view the site.
 
-- Website: https://chiefpansancolt.dev
-- Twitter: [@chiefpansancolt](https://twitter.com/chiefpansancolt)
-- Github: [@chiefpansancolt](https://github.com/chiefpansancolt)
-- LinkedIn: [pezzachristopher](https://linkedin.com/in/pezzachristopher)
+## Build
 
-## Show your support
+```bash
+npm run build
+```
 
-Give a ⭐️ if this project helped you!
+## Deployed Site
+
+[https://simplecov-tailwind.chiefpansancolt.dev](https://simplecov-tailwind.chiefpansancolt.dev)
