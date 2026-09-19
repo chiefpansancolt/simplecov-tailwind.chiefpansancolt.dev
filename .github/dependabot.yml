@@ -46,15 +46,6 @@ updates:
       - dependency-name: 'eslint'
         update-types:
           - 'version-update:semver-major'
-      # Next 16.2+ breaks @markdoc/next.js pages ("use client" metadata error)
-      - dependency-name: 'next'
-        update-types:
-          - 'version-update:semver-major'
-          - 'version-update:semver-minor'
-      - dependency-name: 'eslint-config-next'
-        update-types:
-          - 'version-update:semver-major'
-          - 'version-update:semver-minor'
       # v5 drops the default export used by @markdoc/next.js and nodes.js
       - dependency-name: 'js-yaml'
         update-types:
