@@ -1,6 +1,13 @@
 {
   "name": "simplecov-tailwind.chiefpansancolt.dev",
   "private": true,
+  "description": "Documentation site for the simplecov-tailwindcss Ruby gem",
+  "author": "chiefpansancolt",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chiefpansancolt/simplecov-tailwind.chiefpansancolt.dev"
+  },
+  "homepage": "https://simplecov-tailwind.chiefpansancolt.dev",
   "scripts": {
     "dev": "next dev --webpack",
     "build": "next build --webpack",

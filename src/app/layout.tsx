@@ -21,15 +21,43 @@ const lexend = localFont({
   variable: '--font-lexend',
 })
 
+const siteUrl = 'https://simplecov-tailwind.chiefpansancolt.dev'
+const siteDescription =
+  'Getting started with using Simplecov Tailwindcss in a Ruby project.'
+
 export const metadata: Metadata = {
+  metadataBase: new URL(siteUrl),
   title: {
     template: '%s - Simplecov Tailwindcss Docs',
     default: 'Simplecov Tailwindcss - Ruby gem documentation',
   },
-  description:
-    'Getting started with using Simplecov Tailwindcss in a Ruby project.',
-  keywords:
-    'Simplecov, Ruby, Ruby on Rails, Tailwindcss, Simplecov Tailwindcss',
+  description: siteDescription,
+  keywords: [
+    'Simplecov',
+    'Ruby',
+    'Ruby on Rails',
+    'Tailwindcss',
+    'Simplecov Tailwindcss',
+  ],
+  alternates: {
+    canonical: '/',
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
+  openGraph: {
+    type: 'website',
+    siteName: 'Simplecov Tailwindcss',
+    title: 'Simplecov Tailwindcss - Ruby gem documentation',
+    description: siteDescription,
+    url: siteUrl,
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Simplecov Tailwindcss - Ruby gem documentation',
+    description: siteDescription,
+  },
   icons: {
     icon: [
       { url: '/favicon-16x16.png', sizes: '16x16', type: 'image/png' },
@@ -38,6 +66,15 @@ export const metadata: Metadata = {
     apple: '/apple-touch-icon.png',
   },
   manifest: '/site.webmanifest',
+}
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'SoftwareSourceCode',
+  name: 'Simplecov Tailwindcss',
+  description: siteDescription,
+  codeRepository: 'https://github.com/chiefpansancolt/simplecov-tailwindcss',
+  programmingLanguage: 'Ruby',
 }
 
 export default function RootLayout({
@@ -52,6 +89,10 @@ export default function RootLayout({
       suppressHydrationWarning
     >
       <body className="flex min-h-full bg-white dark:bg-slate-900">
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
         <Providers>
           <Layout>{children}</Layout>
         </Providers>
